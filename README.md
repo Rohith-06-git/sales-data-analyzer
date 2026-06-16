@@ -138,6 +138,71 @@ This project was developed as part of my Data Engineering learning journey to ga
 
 ---
 
+## Business Questions Answered
+
+### 1. What is the total revenue?
+Answer: 
+The dataset records a total sales revenue of ₹7,606,367,587.
+
+Insight: 
+The dataset represents a large-scale automotive marketplace with over 7.6 billion in recorded vehicle transactions. This substantial transaction volume makes the dataset suitable for identifying meaningful market trends, pricing patterns, and consumer preferences within the used car industry.
+### 2.Which manufacturer sold the most vehicles?
+Answer:
+Ford recorded the highest number of vehicle sales in the dataset.
+
+Insight:
+Ford's strong sales volume indicates a significant presence in the used car market and suggests consistent demand across a wide range of vehicle segments.
+### 3.Which manufacturer generated the highest revenue?
+Answer:
+Ford generated the highest total revenue, with approximately 1.36 billion in vehicle sales.
+
+Insight:
+Ford not only leads in sales volume but also contributes the largest share of overall revenue, highlighting its dominant position in the marketplace.
+### 4.What is the average selling price of a vehicle?
+Answer:
+The average vehicle selling price is approximately 13,611.36.
+
+Insight:
+This value serves as a useful benchmark for comparing individual vehicle prices, manufacturers, and market segments.
+### 5.Which vehicle body type is most common?
+Answer:
+Sedan is the most common vehicle body type, with 241,343 vehicles sold.
+
+Insight:
+The popularity of sedans suggests strong consumer preference for practical and versatile passenger vehicles in the used car market.
+### 6.Are automatic vehicles more popular than manual vehicles?
+Answer:
+Automatic transmission vehicles accounted for 475,915 sales, compared to 17,544 manual transmission vehicles.
+
+Insight:
+The overwhelming preference for automatic vehicles indicates a major shift in consumer demand toward convenience and ease of driving.
+### 7.Does vehicle mileage affect selling price?
+Answer:
+The correlation between odometer reading and selling price is -0.582.
+
+Insight:
+There is a moderate negative relationship between vehicle mileage and selling price. As mileage increases, vehicle prices tend to decrease, confirming that mileage is a major factor influencing resale value.
+### 8.Which manufacturer has the highest average selling price?
+Answer:
+Rolls-Royce recorded the highest average selling price at approximately 153,488.
+
+Insight:
+Although Rolls-Royce sells far fewer vehicles than mass-market brands, its luxury positioning results in significantly higher transaction values per vehicle.
+### 9.Which seller generated the highest revenue?
+Answer:
+Ford Motor Credit Company LLC generated the highest revenue, totaling approximately 340.96 million.
+
+Insight:
+The seller's substantial revenue contribution highlights its strong market presence and significant role in used vehicle transactions.
+### 10.How closely do MMR values match actual selling prices?
+Answer:
+The average difference between MMR (Market Value) and actual selling price is approximately 158.02.
+
+Insight:
+The relatively small average difference suggests that MMR provides a reasonable estimate of market value, although individual vehicle prices may still vary due to factors such as condition, demand, and location.
+
+---
+
 ## Key Insights
 
 * A small number of manufacturers account for a significant share of vehicle sales.
