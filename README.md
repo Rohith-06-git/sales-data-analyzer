@@ -41,6 +41,7 @@ This project was developed as part of my Data Engineering learning journey to ga
 
 * Python
 * Pandas
+* Matplotlib
 * VS Code
 * Git
 * GitHub
