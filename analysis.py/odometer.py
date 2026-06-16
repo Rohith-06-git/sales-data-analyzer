@@ -16,7 +16,7 @@ print(df.groupby('make')['odometer'].mean().head(30).sort_values(ascending=False
 scatter_df = df[['odometer', 'sellingprice']].dropna()
 scatter_df = scatter_df.sample(10000, random_state=42) #sampleData of 10000
 
-plt.figure(figsize=(8,6))
+plt.figure(figsize=(12,8))
 plt.scatter(scatter_df['odometer'], scatter_df['sellingprice'] ,alpha = 0.3)
 plt.title("Mileage vs price distribution")
 plt.xlabel("odometer values")
